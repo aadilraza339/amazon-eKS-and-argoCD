@@ -3,7 +3,8 @@ image:
   pullPolicy: IfNotPresent
   repository: 324980699593.dkr.ecr.us-east-1.amazonaws.com/amazon-test-app
   version: latest
-imagePullSecrets: []
+imagePullSecrets:
+  - name: ecr-registry
 nameOverride: ""
 fullnameOverride: ""
 serviceAccount:
