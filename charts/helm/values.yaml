@@ -1,8 +1,8 @@
 replicaCount: 5
 image:
   pullPolicy: IfNotPresent
-  repository: 651010102653.dkr.ecr.ap-southeast-1.amazonaws.com/argoeks
-  version: main-c7c2c79
+  repository: 324980699593.dkr.ecr.us-east-2.amazonaws.com/kubernetes-github-actions
+  version: latest
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
