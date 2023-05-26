@@ -26,7 +26,7 @@ jobs:
       id: build-image
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: kubernetes-github-actions
+        ECR_REPOSITORY: amazon-test-app
 
       run: |
         # Build a docker container and push it to ECR

@@ -1,7 +1,7 @@
 replicaCount: 5
 image:
   pullPolicy: IfNotPresent
-  repository: 324980699593.dkr.ecr.us-east-2.amazonaws.com/kubernetes-github-actions
+  repository: 324980699593.dkr.ecr.us-east-1.amazonaws.com/amazon-test-app
   version: latest
 imagePullSecrets: []
 nameOverride: ""
